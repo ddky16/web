@@ -1,0 +1,17 @@
+﻿@inherits CardItemBase
+
+<NavLink href="@_projectLink" class="link-underline link-underline-opacity-0">
+    <div class="card mb-3">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="@_imagePath" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">@_title</h5>
+                    <p class="card-text fs-6 fw-light truncate-text">@_description</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</NavLink>
